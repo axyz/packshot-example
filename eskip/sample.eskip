@@ -1,0 +1,12 @@
+small: Path("/small/**:image")
+  -> modPath("^/small/", "/")
+  -> finalizeResponse()
+  -> quality(80)
+  -> longerEdgeResize(800)
+  -> "https://images.unsplash.com";
+
+packshot: Path("/packshot/**:image")
+  -> modPath("^/packshot/", "/")
+  -> packshot()
+  -> <loopback>;
+
