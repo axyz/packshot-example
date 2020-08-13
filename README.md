@@ -14,6 +14,6 @@
 - http://localhost:9090/packshot/small/photo-1548175604-bc2d52e2271f
 - http://localhost:9090/packshot/small/photo-1587131798251-0f02ebc5f473
 
-Any other unsplash image id can be used, but works best with objects against
+Any other [unsplash](https://unsplash.com/) image id can be used, but works best with objects against
 perfectly white backgrounds, otherwise it will just scale down the image and 
 add a white border.
